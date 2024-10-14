@@ -15,8 +15,7 @@ if (!empty($_GET['nome_cliente']) && !empty($_GET['km_rodados']) && !empty($_GET
         // Deleta os cookie
         setcookie($key, '', time() - 3600, "/");
     }
-    // Redireciona para a página 'devolucao.php'
 
-    header('Location: devolucao.php');
+    header('Location: index.php');
 }
 ?>

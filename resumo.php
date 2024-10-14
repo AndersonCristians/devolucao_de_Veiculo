@@ -40,7 +40,7 @@ if (isset($_COOKIE['nome_cliente']) && isset($_COOKIE['km_rodados']) && isset($_
 } else {
     // Se algum dos cookies necessários estiver faltando, redireciona para 'devolucao.php'
 
-    header('Location: devolucao.php');
+    header('Location: index.php');
 }
 ?>
 
@@ -66,7 +66,7 @@ if (isset($_COOKIE['nome_cliente']) && isset($_COOKIE['km_rodados']) && isset($_
 
         <!-- botão para voltar à página de devolução -->
 
-        <a class="button" name="btn_enviar" href='devolucao.php'> <button class="button">Voltar</button></a>
+        <a class="button" name="btn_enviar" href='index.php'> <button class="button">Voltar</button></a>
 
     </div>
 
